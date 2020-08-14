@@ -1,0 +1,72 @@
+#main-cont{
+    /*background: url("friuts.jpg");
+    object-fit: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;*/
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+#window{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    height:85%;
+    width:28%;
+
+}
+#c1{
+    background-color: rgb(3, 63, 52);
+    flex: 1;
+    display: flex;
+}
+#cs1{
+   flex: 2;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+#cs2{
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+ }
+#c2{
+   /*background-color: rgb(162, 236, 236);*/
+   background-image: url(background.jpg);
+    flex:6;
+}
+#btn{
+    
+    margin-top: 5px;
+    margin-bottom:1px;
+    margin-left:3px;
+    margin-right: 3px;
+    height: 7vh;
+    width:3vw;
+    border:1px solid white;
+    border-radius: 20px;
+    font-size: 20px;
+    outline:none;
+}
+#c3{
+    background-image: url(background.jpg);
+    flex: 1;
+    display: flex;
+}
+#userip{
+    margin-top: 5px;
+    margin-bottom:1px;
+    margin-left:3px;
+    margin-right: 3px;
+    height: 7vh;
+    width:18vw;
+    border:1px solid white;
+    border-radius: 20px;
+    outline:none;
+    font-size: 20px;
+}
