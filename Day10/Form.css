@@ -1,0 +1,13 @@
+#center-cont{
+   border :2px solid black;
+   display: flex;
+   flex-direction: column;
+   
+}
+ .form-ele{
+    padding:2vw;
+    padding: 2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 

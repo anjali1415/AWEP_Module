@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js demo</title>
+    <script src="like.js"></script>
+    <link rel="stylesheet" href="like.css">
+</head>
+
+<body>
+    <!-- upper fun-->
+    <div class="like">
+        <button type="submit" id="likeid" style="font-size:20px" onclick="HandleLike()">Like</button>
+        <button type="submit" id="dislikeid" style="font-size:20px" onclick="handledislike()">Dislike</button>
+        <input type="text" id="inputid" style="font-size:20px" value="">
+        <button type="submit" onclick="Handlecomments()" style="font-size:20px;">Comment</button>
+    </div>
+    <!-- lower fun-->
+    <div id="commentbox">
+        <div id="ref">
+            <div id="userop">Displayed here</div>
+            <button type="submit" onclick="HandleDelete(this)" style="font-size:20px; background: red;">Delete</button>
+        </div>
+    </div>
+    <!--seprate div -->
+    <div id="i1">
+        <div id="i2"></div>
+    </div>
+</body>
+
+</html>

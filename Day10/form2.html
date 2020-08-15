@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+       <link rel="stylesheet" href="Form.css">
+       <style>
+           #main-cont{
+               background: url("image22.jpg");
+             /* background: url("https://picsum.photos/id/0/1200/1300");*/
+               position:fixed;
+               height:100vh;
+               width:100vw;
+               background-repeat: no-repeat;
+               background-size: cover;
+               object-fit: cover;
+               background-position: center;
+               display: flex;
+               flex-direction: column;
+               justify-content: center;
+               align-items: center;
+           }
+       </style>
+</head>
+<body>
+    <form>
+    <div id="main-cont">
+          
+        <div id="center-cont">
+            
+                
+                <div class="form-ele">
+                    <label for="name">Name :</label>
+                     <span style="color:red">*</span>
+                     <input tyep="text" id="name" required>
+                </div>
+                <div class="form-ele">
+                    <label for="uname">Username :</label>
+                    <input tyep="email" id="mail" pattern="[a-z|A-Z|0-9|@].{5,12}" required style="font-size:17px">
+                </div>
+                <div class="form-ele">
+                    <label for="pass">Password</label>
+                    <input tyep="text" id="pass" pattern="[a-z|A-Z|0-9|@](.?=*).{3,9}" required>
+                </div>
+                <div class="form-ele">
+                    <label for="rem">Remember </label>
+                     <input type="checkbox" id="rem">
+                </div>
+                <div class="form-ele">
+                    <button type="submit " style="cursor:pointer;">submit</button>
+                </div>
+            
+            
+         </div>       
+    </div>
+</form>
+</body>
+</html>

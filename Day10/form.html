@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="Form.css">
+    <style>
+        #main-cont {
+            background: url("images.jpg");
+            /* background: url("https://picsum.photos/id/0/1200/1300");*/
+            position: fixed;
+            height: 100vh;
+            width: 100vw;
+            background-repeat: no-repeat;
+            background-size: cover;
+            object-fit: cover;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="main-cont">
+
+        <div id="center-cont">
+            <form action="home.html">
+                <div class="form-ele"> Rigister here!</div>
+                <div class="form-ele">
+                    <label for="name">Name :</label>
+                    <span style="color:red">*</span>
+                    <input type="text" id="name" required>
+                </div>
+                <div class="form-ele">
+                    <label for="uname">Username :</label>
+                    <input tyep="email" id="mail" pattern="[a-z|A-Z|0-9|@].{5,12}" required style="font-size:17px">
+                </div>
+                <div class="form-ele">
+                    <label for="pass">Password</label>
+                    <input tyep="Password" id="pass" pattern="[a-z|A-Z|0-9|@](.?=*).{3,9}" required>
+                </div>
+
+                <div class="form-ele">
+                    <input type="checkbox" id="rem">
+                    <label for="rem">Remember </label>
+                </div>
+                <div class="form-ele">
+                    <button type="submit " style="cursor:pointer;">submit</button>
+                </div>
+            </form>
+
+        </div>
+    </div>
+</body>
+
+</html>

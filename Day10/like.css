@@ -1,0 +1,26 @@
+.like{
+    background:pink;
+    height:20vh;
+    border:2px solid black;
+    border-radius:10px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding :20px;
+}
+#likeid:hover{
+    background:green;
+}
+#dislikeid:hover{
+    background: red;
+}
+#ref{
+    background:cyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    margin-top:5px;
+    visibility: hidden;
+    
+}
